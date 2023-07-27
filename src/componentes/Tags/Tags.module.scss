@@ -8,6 +8,7 @@
   color: $cor-do-texto;
   font-family: $fonte-normal;
   font-size: 16px;
+  
 
   p {
     font-size: 1.25rem;
@@ -27,4 +28,19 @@
       cursor: pointer;
     }
   }
+}
+
+@media (max-width: 768px) {
+  .filtre__tags {
+    display: none;
+  }
+  .tags {
+
+    font-size: 14px;
+  }    
+  
+    p {
+      font-size: 0.8rem;
+    }
+
 }

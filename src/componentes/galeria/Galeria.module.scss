@@ -22,7 +22,7 @@
     border-radius: 20px;
     height: 280px;
     width: 285px;
-    margin-right: 1rem;
+    margin-right: 0.3rem;
     margin-bottom: 1.35rem;
     cursor: pointer;
  
@@ -74,3 +74,29 @@
     font-family: $fonte-bold;
   }
 }
+
+@media (max-width: 480px) {
+  .galeria {
+   
+
+    &__card {
+  
+      height: 160px;
+      width: 165px;
+      cursor: pointer;
+    }
+    &__descricao{
+      font-size: 0.7rem;
+    }
+    div {
+      height: 10px;
+    }
+    span {
+      width: 20%;
+
+      img {
+        height: 10px;
+        cursor: pointer;
+      }
+}
+}}

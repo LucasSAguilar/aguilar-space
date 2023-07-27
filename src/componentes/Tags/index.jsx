@@ -5,7 +5,7 @@ import fotos from "../galeria/fotos.json";
 export default function Tags({ tags, filtraFotos, setItens }) {
   return (
     <div className={styles.tags}>
-      <p>Filtre por tags:</p>
+      <p className={styles.filtre__tags}>Filtre por tags:</p>
       <ul className={styles.tags__lista}>
         {tags.map((tag) => {
           return (
